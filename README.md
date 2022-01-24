@@ -1,7 +1,6 @@
 
-Trino Community Kubernetes Helm Charts
+Presto Helm Charts
 ===========
-[![Release Trino Chart](https://github.com/trinodb/charts/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/trinodb/charts/actions/workflows/release.yaml)
 
 Fast distributed SQL query engine for big data analytics that helps you explore your data universe
 
@@ -14,13 +13,13 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add trino https://trinodb.github.io/charts/
+helm repo add presto-helm https://asifkazi.github.io/presto-helm/charts/
 ```
 
-You can then run `helm search repo trino` to see the charts.
+You can then run `helm search repo presto-helm` to see the charts.
 
 Then you can install chart using:
 
 ```console
-helm install my-trino trino/trino --version 0.2.0
+helm install my-presto asifkazi/prestodb --version 0.268
 ```
